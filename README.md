@@ -4,6 +4,8 @@ A small local dashboard that measures model output speed (token/s) from the
 conversation records that Claude Code and Codex already write on your machine.
 It never calls a model provider and never sends conversation text anywhere.
 
+To let a coding agent install it for you, paste the prompt in [AGENT_SETUP.md](AGENT_SETUP.md).
+
 ## Run
 
 Requires Node 22.18+ and Bun for the browser build.
