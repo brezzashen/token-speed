@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <title>TOKEN SPEED · 输出速度</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23ffd84d' d='M2 2h12v12H2z'/%3E%3Cpath fill='%23101010' d='M4 4h8v2H9v6H7V6H4z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <div class="brand"><span class="pixel-logo" aria-hidden="true">T</span><span>TOKEN SPEED<span class="brand-sub">输出速度观测站 / SPEED MONITOR</span></span></div>
+      <div class="live"><span class="led"></span><span id="connection">连接中</span></div>
+    </header>
+    <div id="output-speed" aria-live="polite"></div>
+    <section class="station-bar"><nav id="accounts" aria-label="选择账号"></nav><span>选择账号查看区间速度 ↓</span></section>
+    <div id="interval-speed" aria-live="polite"></div>
+    <footer><span><b>■</b> TOKEN SPEED</span><span>本机对话记录 · 每 2 秒更新</span></footer>
+  </main>
+</body>
+</html>

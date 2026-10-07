@@ -1,0 +1,16 @@
+{
+  "name": "token-speed",
+  "version": "0.1.0",
+  "description": "Local output-speed dashboard for Claude Code and Codex conversations",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "build": "bun build web/app.ts --outdir web/dist --target browser",
+    "test": "node --disable-warning=ExperimentalWarning --test speed.test.ts",
+    "start": "node --disable-warning=ExperimentalWarning server.ts"
+  },
+  "dependencies": {
+    "js-tiktoken": "1.0.21"
+  }
+}
